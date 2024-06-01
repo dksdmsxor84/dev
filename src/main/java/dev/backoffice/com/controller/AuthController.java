@@ -33,6 +33,7 @@ public class AuthController {
 		
 		log.debug("param, {}", param);
 		log.trace("trace log={}", param);
+		log.trace("trace log2={}", param);
 		
 		return mav;
 	}
